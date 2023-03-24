@@ -80,3 +80,29 @@
     filter:opacity(.5) sepia(.5);
     transform: scale(3);
 }
+
+/* Esercizio 10 */
+.ex-10-icon{
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover{
+    animation: ruotate 2s linear;
+}
+
+@keyframes ruotate{
+    0%{
+        transform: rotate(0);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+}
